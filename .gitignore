@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Conda / virtualenv
+env/
+venv/
+.env/
+
+# Compiled CUDA extensions
+*.so
+*.o
+*.a
+deformable_detr/models/ops/build/
+deformable_detr/models/ops/MultiScaleDeformableAttention.egg-info/
+
+# Model weights and checkpoints
+*.pth
+*.ckpt
+*.pt
+pretrained/
+results/
+
+# Logs
+*.log
+log.txt
+wandb/
+runs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/

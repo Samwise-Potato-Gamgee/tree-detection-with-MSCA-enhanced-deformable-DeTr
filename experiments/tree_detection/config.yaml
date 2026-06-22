@@ -1,0 +1,36 @@
+model:
+  backbone: resnet50          # options: resnet50, swin_t
+  pretrained_backbone: null   # path to Swin-T ImageNet weights, null for ResNet
+  num_feature_levels: 4
+  num_queries: 100
+  enc_layers: 6
+  dec_layers: 6
+  dim_feedforward: 1024
+  hidden_dim: 256
+  nheads: 8
+  dec_n_points: 4
+  enc_n_points: 4
+  two_stage: false
+  with_box_refine: false
+  num_classes: 1
+
+msca:
+  use_msca: true
+  reduction: 16
+  common_size: 32
+
+clahe:
+  use_clahe: true
+  clip_limit: 2.0
+  tile_grid_size: 8
+
+training:
+  epochs: 50
+  batch_size: 2
+  num_workers: 4
+  lr: 0.0002
+  lr_backbone: 0.00002
+  weight_decay: 0.0001
+  lr_drop: 40
+  clip_max_norm: 0.1
+  seed: 42
