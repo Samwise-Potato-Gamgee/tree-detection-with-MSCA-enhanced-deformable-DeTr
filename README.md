@@ -1,6 +1,6 @@
 # Tree Detection with MSCA-Enhanced Deformable DETR
 
-Off-road tree detection using Deformable DETR enhanced with **MSCA (Multi-Scale Coupled Attention)** and **CLAHE preprocessing**. Trained and evaluated on the RPTU forest real dataset.
+Off-road tree detection using Deformable DETR enhanced with **MSCA (Multi-Scale Coupled Attention)** and **CLAHE preprocessing**. Trained on the RPTU forest real dataset and RPTU forest simulated dataset.
 
 ---
 
