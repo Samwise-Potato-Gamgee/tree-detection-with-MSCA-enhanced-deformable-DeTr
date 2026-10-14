@@ -278,3 +278,6 @@ out = msca(feats)
 - **Category IDs**: annotations use `category_id=1` (1-indexed). The dataset class remaps to 0-indexed internally.
 - **CLAHE** is applied to the L channel of LAB colorspace online during data loading.
 - The CUDA ops must be recompiled on each machine — compiled `.so` files are not portable.
+
+
+## ToDo's
